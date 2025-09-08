@@ -18,6 +18,7 @@ alpha = 1
 beta = 2
 gamma = 3
 delta = 4
+#  P E M/D A/S
 print(f"{alpha + beta * gamma / delta = }")
 print(f"{(alpha + beta) * (gamma / delta) = }")
 print(f"{(alpha + (beta * gamma)) / delta = }")

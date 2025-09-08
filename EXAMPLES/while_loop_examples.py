@@ -9,4 +9,7 @@ while True:  # Loop "forever"
         break  # Exit loop
 
     quantity = int(raw_quantity)  # could validate via try/except
-    print(f"sending {quantity} ticket(s)")
+    if 0 < quantity <= 32:
+        print(f"sending {quantity} ticket(s)")
+    else:
+        print("Invalid quantity")

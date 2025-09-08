@@ -17,10 +17,10 @@ people = [
 ]
 
 for row in people:
-    first_name, last_name, _ = row  # unpack row into variables
+    first_name, last_name, product = row  # unpack row into variables
     print(first_name, last_name)
 print()
 
-for first_name, last_name, _ in people:  # a for loop unpacks if there is more than one variable
+for first_name, last_name, product in people:  # a for loop unpacks if there is more than one variable
     print(first_name, last_name)
 print()

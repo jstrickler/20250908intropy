@@ -1,3 +1,5 @@
+fruits = []   # empty 
+
 cities = ['Portland', 'Pittsburgh', 'Peoria']
 print(f"cities: {cities}\n")
 
@@ -28,5 +30,18 @@ print(f"cities: {cities}\n")
 city = cities.pop(3)
 print(f"city: {city}")
 print(f"cities: {cities}\n")
+print('-' * 60)
 
-# del LIST[idx]  LIST.remove(value) LIST.pop() LIST.pop(idx)    
+# del LIST[idx]  LIST.remove(value) LIST.pop() LIST.pop(idx)
+
+# for VAR in ITERABLE
+for city in cities:
+    print(city)
+print()
+
+a = "apple"
+for char in a:
+    print(char)
+print()
+
+print(char)

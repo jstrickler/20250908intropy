@@ -3,6 +3,9 @@ file_path = "Projects/alpha/src/utils/pdfstuff.py"
 print("file_path =", file_path)
 print("len(file_path) =", len(file_path))
 
+up = file_path.upper()
+print(f"{up = }")
+
 print("file_path.upper() =", file_path.upper())
 print("file_path.count('/') =", file_path.count('/'))
 print("file_path.count('p') =", file_path.count('p'))
