@@ -28,7 +28,7 @@ def function1():
     """
     print("this is function1()")
 
-#if __name__ == '__main__':
-main(sys.argv[1:])  # Pass command line args (minus script name) to main()
+if __name__ == '__main__':
+    main(sys.argv[1:])  # Pass command line args (minus script name) to main()
 
-f = function1()
+    f = function1()

@@ -1,4 +1,6 @@
-from geometry import *
+from geometry import *  # import all names from module
+
+print(f"{PI = }")
 
 circle = circle_area(8)
 print(f"{circle = }")
