@@ -1,6 +1,7 @@
-data1 = ['red', 'blue', 'green', 'purple', 'green']  # create literal set
-data2 = ['green', 'blue', 'yellow', 'orange']
+data1 = ['red', 'blue', 'green', 'purple', 'green'] 
+data2 = ['green', 'blue', 'yellow', 'orange', 'blue', 'blue', 'blue', 'blue']
 
+# my_set = set()   empty set
 set1 = set(data1)
 set2 = set(data2)
 

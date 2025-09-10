@@ -6,8 +6,9 @@ import sys
 # other imports  (standard library, standard non-library, local)
 
 # constants (AKA global variables -- keep these to a minimum)
+GLOBAL_VARIABLE = None
 
-# main function
+# main function (does not have to be named "main", but it's a convention)
 def main(args):
     """
     This is the docstring for the main() function
@@ -15,6 +16,7 @@ def main(args):
     :param args: Command line arguments.
     :return: None
     """
+    # code code code
     function1()
 
 # other functions
@@ -26,5 +28,7 @@ def function1():
     """
     print("this is function1()")
 
-if __name__ == '__main__':
-    main(sys.argv[1:])  # Pass command line args (minus script name) to main()
+#if __name__ == '__main__':
+main(sys.argv[1:])  # Pass command line args (minus script name) to main()
+
+f = function1()
